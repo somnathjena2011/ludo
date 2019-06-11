@@ -1,0 +1,87 @@
+body{
+	background: blue;
+}
+.head{
+	margin: 0 auto;
+	text-align: center;
+	color: yellow;
+	border: 3px solid yellow;
+}
+.table{
+	width: 800px;
+	height: 800px;
+	margin: 20px auto;
+	border-color: yellow;
+	border-collapse: collapse;
+}
+.table td{
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	font-size: 120%;
+}
+.roll{
+	border: none;
+	width: 200px;
+	height: 40px;
+	color: yellow;
+	text-transform: uppercase;
+	font-size: 150%;
+	cursor: pointer;
+	background: linear-gradient(to right,red,yellow);
+}
+.number{
+	margin: 20px auto;
+	background: linear-gradient(to right,red,yellow);
+	max-width: 150px;
+	height: 30px;
+	font-size: 25px;
+	color: yellow;
+}
+.turns{
+	margin: 20px auto;
+	background: linear-gradient(to right,red,yellow);
+	max-width: 200px;
+	font-size: 30px;
+	color: yellow;
+}
+.StartA{
+	background: #ff0000;
+}
+.EndA{
+	background: #ff6347
+}
+.StartB{
+	background: #ffff00;
+}
+.EndB{
+	background: #ffffcc;
+}
+.a1{
+	background: red;
+	opacity: 1;
+	transition: : opacity 0.7s;
+	max-width: 50px;
+	cursor: pointer;
+}
+.a2{
+	background: red;
+	opacity: 1;
+	transition: : opacity 0.7s;
+	max-width: 50px;
+	cursor: pointer;
+}
+.b1{
+	background: yellow; 
+	opacity: 1;
+	transition: opacity 0.7s;
+	max-width: 50px;
+	cursor: pointer;
+}
+.b2{
+	background: yellow;
+	opacity: 1;
+	transition: : opacity 0.7s;
+	max-width: 50px;
+	cursor: pointer;
+}
